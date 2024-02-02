@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "public/**",
+      "use": "@vercel/static",
+      "prebuild": "npm install",
+      "build": "./node_modules/.bin/firebase use y && ./node_modules/.bin/firebase serve --only hosting"
+    }
+  ]
+}
