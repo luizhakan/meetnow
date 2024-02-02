@@ -4,8 +4,7 @@
     {
       "src": "public/**",
       "use": "@vercel/static",
-      "prebuild": "npm install",
-      "build": "./node_modules/.bin/firebase use y && ./node_modules/.bin/firebase serve --only hosting"
+      "run": "npm run build"
     }
   ]
 }
