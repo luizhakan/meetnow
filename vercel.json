@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "public/**",
-      "use": "@vercel/static",
-      "run": "npm run build"
+      "use": "@vercel/static"
     }
   ]
 }
